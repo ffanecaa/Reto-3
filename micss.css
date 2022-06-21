@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: sans-serif;
+    text-align: center;
+    background-color: #333;
+  }
+  
+  .cards {
+    width: 90%;
+    height: 500px;
+    margin: 200px auto;
+    font-size: 0
+  }
+  .card{
+    position: relative;
+  display: inline-block;
+  width: 300px;
+  text-align: left;
+  height: 100%;
+  padding-top: 3em;
+  padding-left: 2em;
+  font-size: 1rem;
+  color: hsl(0 0% 100% / 0.75);
+  font-family: "Lexend Deca", sans-serif;
+  }
+  .card--orange{
+    background-color: hsl(31, 77%, 52%);
+  }
+  .card--cyan{
+    background-color: hsl(184, 100%, 22%);
+  }
+  .card--dark-cyan{ 
+    background-color: hsl(179, 100%, 13%);
+  }
+  .card-title{
+    font-family:"Big Shoulders Display";
+    font-size: 2.5rem;
+    text-transform: uppercase;
+  }
